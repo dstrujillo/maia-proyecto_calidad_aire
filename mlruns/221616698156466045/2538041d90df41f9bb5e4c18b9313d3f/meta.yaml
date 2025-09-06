@@ -1,0 +1,15 @@
+artifact_uri: /Users/danieltrujillo/Documents/MAIA/2025-21-Proyecto-Desarrollo de
+  Soluciones/2025-2-ProyectoFinal/maia-proyecto_calidad_aire/scripts_entrenamientos/../mlruns/221616698156466045/2538041d90df41f9bb5e4c18b9313d3f/artifacts
+end_time: 1757198799694
+entry_point_name: ''
+experiment_id: '221616698156466045'
+lifecycle_stage: active
+run_id: 2538041d90df41f9bb5e4c18b9313d3f
+run_name: RandomForestRegressor_set_1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757197199279
+status: 3
+tags: []
+user_id: danieltrujillo
