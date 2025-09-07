@@ -1,0 +1,16 @@
+artifact_uri: /Users/danieltrujillo/Documents/MAIA/2025-21-Proyecto-Desarrollo de
+  Soluciones/2025-2-ProyectoFinal/maia-proyecto_calidad_aire/scripts_entrenamientos/../mlruns/221616698156466045/0ff32e4e195747febb2547dece2a9762/artifacts
+deleted_time: 1757204330737
+end_time: null
+entry_point_name: ''
+experiment_id: '221616698156466045'
+lifecycle_stage: deleted
+run_id: 0ff32e4e195747febb2547dece2a9762
+run_name: SVR_set_1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757199298300
+status: 1
+tags: []
+user_id: danieltrujillo

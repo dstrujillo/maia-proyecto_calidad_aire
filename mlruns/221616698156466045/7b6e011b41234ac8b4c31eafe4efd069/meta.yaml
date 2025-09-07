@@ -1,0 +1,15 @@
+artifact_uri: /Users/danieltrujillo/Documents/MAIA/2025-21-Proyecto-Desarrollo de
+  Soluciones/2025-2-ProyectoFinal/maia-proyecto_calidad_aire/scripts_entrenamientos/../mlruns/221616698156466045/7b6e011b41234ac8b4c31eafe4efd069/artifacts
+end_time: 1757199298296
+entry_point_name: ''
+experiment_id: '221616698156466045'
+lifecycle_stage: active
+run_id: 7b6e011b41234ac8b4c31eafe4efd069
+run_name: LinearRegression_set_1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757199294353
+status: 3
+tags: []
+user_id: danieltrujillo

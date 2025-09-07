@@ -1,0 +1,11 @@
+artifact_location: /Users/danieltrujillo/Documents/MAIA/2025-21-Proyecto-Desarrollo
+  de Soluciones/2025-2-ProyectoFinal/maia-proyecto_calidad_aire/scripts_entrenamientos/../mlruns/221616698156466045/models/m-aa9a34963c1e4475b1ba586964523adc/artifacts
+creation_timestamp: 1757197162363
+experiment_id: '221616698156466045'
+last_updated_timestamp: 1757197168195
+model_id: m-aa9a34963c1e4475b1ba586964523adc
+model_type: null
+name: model
+source_run_id: d26521246e144b488c3602bc011ad07f
+status: 2
+status_message: null

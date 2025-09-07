@@ -1,0 +1,23 @@
+artifact_path: /Users/danieltrujillo/Documents/MAIA/2025-21-Proyecto-Desarrollo de
+  Soluciones/2025-2-ProyectoFinal/maia-proyecto_calidad_aire/scripts_entrenamientos/../mlruns/362550029327108361/models/m-35742c34f6ab47148eeccc678c7820ec/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.2
+model_id: m-35742c34f6ab47148eeccc678c7820ec
+model_size_bytes: 650
+model_uuid: m-35742c34f6ab47148eeccc678c7820ec
+prompts: null
+run_id: c58acef8eac242529c6575b270b4ebb3
+utc_time_created: '2025-09-07 00:47:28.693069'
