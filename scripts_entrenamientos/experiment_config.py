@@ -1,15 +1,15 @@
 EXPERIMENT_CONFIG = {
-    'feature_sets': [1, 2, 3],
+    'feature_sets': [3],
     'models_to_train': [
         'linear_regression',
         'ridge',
         'lasso',
-        'random_forest',
+        #'random_forest',
         'gradient_boosting',
         'xgboost',
         'lightgbm',
-        'svr',
-        'mlp'
+        #'svr',
+        #'mlp'
     ],
     'test_size': 0.2,
     'val_size': 0.2,
@@ -17,7 +17,7 @@ EXPERIMENT_CONFIG = {
     'search_method': 'grid',  # 'grid' or 'random'
     'cv_folds': 3,
     'mlflow_tracking_uri': '../mlruns',
-    'experiment_name': 'hospital_admissions_prediction'
+    'experiment_name': 'hospital_admissions_prediction_set3'
 }
 
 MODEL_PRIORITY = {

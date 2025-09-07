@@ -1,0 +1,15 @@
+artifact_uri: /Users/danieltrujillo/Documents/MAIA/2025-21-Proyecto-Desarrollo de
+  Soluciones/2025-2-ProyectoFinal/maia-proyecto_calidad_aire/scripts_entrenamientos/../mlruns/362550029327108361/2f955567e4bf4d7fbd0bfb28586f7671/artifacts
+end_time: 1757206047642
+entry_point_name: ''
+experiment_id: '362550029327108361'
+lifecycle_stage: active
+run_id: 2f955567e4bf4d7fbd0bfb28586f7671
+run_name: GradientBoostingRegressor_set_3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757205237604
+status: 3
+tags: []
+user_id: danieltrujillo
