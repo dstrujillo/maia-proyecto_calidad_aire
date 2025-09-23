@@ -1,4 +1,6 @@
 [core]
-    remote = aws-remote
+    remote = s3_mackie
 ['remote "aws-remote"']
     url = s3://maia-calidad-aire
+['remote "s3_mackie"']
+    url = s3://maia-calidad-aire-mackie
