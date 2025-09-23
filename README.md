@@ -51,3 +51,22 @@ flowchart TD
 yaml
 
 
+## 📊 Flujo de Datos y Procesos
+
+El siguiente diagrama muestra el flujo completo desde los datos crudos hasta los resultados:
+
+### 🖼️ Versión Renderizada (Imagen)
+![Flujo de Datos](docs/flujo_datos_completo.png)
+
+### 📐 Versión en Mermaid (Reproducible)
+```mermaid
+flowchart TD
+    A[Dataset crudo en S3] -->|dvc pull| B[data/raw]
+    B --> C[Preprocesamiento]
+    C --> D[Feature Engineering]
+    D --> E[Entrenamiento del modelo]
+    E --> F[Evaluación de métricas]
+    F --> G[Resultados y reportes]
+
+
+
