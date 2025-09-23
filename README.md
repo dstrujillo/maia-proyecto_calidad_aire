@@ -75,3 +75,67 @@ flowchart TD
 El siguiente pantallazo muestra el listado del bucket en AWS S3, confirmando que la infraestructura de datos está configurada correctamente:
 
 ![Evidencia Bucket S3](docs/aws_s3_bucket_list.png)
+
+
+
+##  Evidencias de DVC + AWS S3
+
+El proyecto utiliza **DVC** conectado a un bucket en **AWS S3** para versionar datos y resultados.  
+A continuación, se muestran ejemplos de ejecución de los principales comandos:
+
+### 🔹 Estado del pipeline
+```bash
+$ dvc status
+Data and pipelines are up to date.
+
+
+
+## 📊 Resultados Versionados con DVC
+
+Las métricas de entrenamiento (`training_results.csv`) están versionadas con **DVC** y respaldadas en nuestro bucket de **AWS S3**.  
+
+Ejemplo de verificación:
+
+```bash
+dvc status
+# Data and pipelines are up to date.
+Puedes recuperar las métricas desde S3 en cualquier momento con:
+
+bash
+Copy code
+dvc pull results/training_results.csv
+📂 Evidencias
+Archivo versionado: results/training_results.csv
+
+Respaldo en S3: s3://maia-calidad-aire-mackie
+
+Estado actual: ✅ sincronizado y actualizado
+
+yaml
+
+
+---
+
+## 🖼️ Evidencias Visuales
+
+Además de los archivos versionados con DVC, incluimos pantallazos como respaldo visual del estado del proyecto.
+
+### Evidencia 1 – Bucket en AWS S3
+![Evidencia Bucket](docs/aws_s3_bucket_list.png)
+
+### Evidencia 2 – DVC sincronizado
+Ejemplo de comando ejecutado:
+
+```bash
+dvc push
+# Everything is up to date.
+Evidencia 3 – Estado del pipeline
+bash
+Copy code
+dvc status
+# Data and pipelines are up to date.
+yaml
+Copy code
+
+---
+
