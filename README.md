@@ -70,3 +70,8 @@ flowchart TD
 
 
 
+## 📊 Evidencia AWS S3
+
+El siguiente pantallazo muestra el listado del bucket en AWS S3, confirmando que la infraestructura de datos está configurada correctamente:
+
+![Evidencia Bucket S3](docs/aws_s3_bucket_list.png)
